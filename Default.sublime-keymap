@@ -27,7 +27,7 @@
     ]
   },
   // extend a docblock by adding an asterisk at the start
-  { "keys": ["enter"], "command": "insert_snippet", "args": {"contents": "\n${TM_CURRENT_LINE/^\\s*(\\*\\s*).*$/$1/}"},
+  { "keys": ["shift+enter"], "command": "insert_snippet", "args": {"contents": "\n${TM_CURRENT_LINE/^\\s*(\\*\\s*).*$/$1/}"},
     "context": [
       { "key": "setting.auto_indent",   "operator": "equal",          "operand": true,              "match_all": true },
       { "key": "selector",              "operator": "equal",          "operand": "comment.block",   "match_all": true },
@@ -36,7 +36,7 @@
     ]
   },
   // extend a docblock by adding an asterisk at the start
-  { "keys": ["enter"], "command": "insert_snippet", "args": {"contents": "\n${TM_CURRENT_LINE/^\\s*(\\*\\s*).*$/$1/}"},
+  { "keys": ["shift+enter"], "command": "insert_snippet", "args": {"contents": "\n${TM_CURRENT_LINE/^\\s*(\\*\\s*).*$/$1/}"},
     "context": [
       { "key": "setting.auto_indent",   "operator": "equal",          "operand": true,            "match_all": true },
       { "key": "selector",              "operator": "equal",          "operand": "comment.block", "match_all": true },
