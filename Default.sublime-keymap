@@ -76,7 +76,7 @@
     ]
   },
   // extend line comments (// and #)
-  { "keys": ["enter"], "command": "insert_snippet", "args": {"contents": "\n${TM_CURRENT_LINE/^\\s*((?:#|\\/\\/[\\/!]?)\\s*).*/$1/}"},
+  { "keys": ["shift+enter"], "command": "insert_snippet", "args": {"contents": "\n${TM_CURRENT_LINE/^\\s*((?:#|\\/\\/[\\/!]?)\\s*).*/$1/}"},
     "context": [
       { "key": "setting.auto_indent",                "operator": "equal",          "operand": true,              "match_all": true },
       { "key": "setting.jsdocs_extend_double_slash", "operator": "equal",          "operand": true,              "match_all": true },
